@@ -80,12 +80,9 @@ footer {
   background-color: white;
 }
 
-
-/* media query  */
-@media screen and (max-width : 500px) {
+@media screen and (max-width: 500px) {
   body {
     transform: rotate(90deg);
-    margin: 0;
   }
   .set {
     display: flex;
@@ -93,9 +90,15 @@ footer {
     width: 100vw;
   }
   h1{
-    font-size: 6rem;
+    font-size: 3rem;
+    margin-left: 38%;
+  }
+  .set {
+    margin-left: 10%;
   }
   footer{
     font-size: 2rem;
+    margin-left: 38%;
   }
+  
 }
